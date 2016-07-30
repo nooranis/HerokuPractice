@@ -1,0 +1,140 @@
+/**
+ * Float Layout Activity 
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, 'Helvetica Nue', sans-serif;
+}
+
+header {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #fff;  
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#hidden {
+  background-color: #fff; 
+  width: 10%;
+  float: left;
+}
+
+#tealName {
+  background-color: #4aaaa5;
+  width: 20%;
+  float: right;
+  color: #fff;
+  }
+
+ul {
+  margin-left: 25px
+}
+
+li {
+  display: inline;
+  list-style-type: none; 
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  float: right;
+}
+
+li a {
+  display: inline;
+  padding: 10px;
+  background-color: #fff; 
+  text-decoration: none;
+}
+
+#mainContent {
+  background-image: url("../images/background.png");
+  color: #333;
+  width: 100%; 
+  clear: all;
+  height: 500px;
+  overflow: auto;
+  border-top: 1px solid #4aaaa5;
+}
+
+#aboutMe {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  width: 650px;
+  height: 350px;
+  margin: 25px 0 0 133px;
+  position: relative;
+  overflow: auto;
+}
+
+#aboutImg {
+  float: left;
+  height: 150px; 
+  width: 75px;
+  margin-top: 40px;
+  position: relative;
+}
+
+#aboutContent {
+  overflow: auto;
+  position: relative;
+  float: right;
+  right: 0;
+}
+
+footer {
+  background: #ccc;
+  padding: 10px; 
+  clear: both;
+  height: 50px;
+}
+
+#contactPage {
+  margin-top: 35px;
+  color: #4aaaa5;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#contentNames {
+  margin-top: 5px;
+  color: #4aaaa5;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+}
+
+aside {
+  float: right;
+  background-color: #fff;
+  width: 33.3%;
+  color: #333;
+  margin: 25px 100px 0 0;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+
+#navLinks {
+  background-color: #fff;
+  width: 70%;
+  float: right;
+  color: #777; 
+  text-decoration: none;
+}
